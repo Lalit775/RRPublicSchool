@@ -1,0 +1,249 @@
+
+@media (max-width: 2560px) {
+
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+  }
+  
+  /* .container-fluid{
+    margin-right: 15px;
+    margin-left: 15px;
+  } */
+  .nav_top .container-fluid{
+    background-color: #102443;
+  }
+  .nav_top a{
+  color: #e5e8ec;
+  }
+  .nav_top a:hover{
+    color: #fcc714;
+  }
+  .nav_top .fa-brands{
+    margin-left: 10px;
+    align-items: center;
+    padding: 2px;
+  }
+  .nav_middle .navbar-brand {
+    width: 6%;
+    margin-left: 100px;
+  }
+  .nav_middle span{
+    margin-left: 30px;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #e46c08;
+    margin-top: 20px;
+  }
+  .nav_middle li{
+    padding-left: 20px;
+    font-weight: 500;
+  }
+  .nav_middle li:hover{
+    padding-left: 20px;
+    font-weight: 700;
+  }
+  
+  .slider img{
+    height: 610px;
+  }
+
+  /*-----------------Principal_section------------------------*/
+  .principal-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  .principal-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .principal-content {
+    margin-top: 30px;
+  }
+  /*-----------------About_section------------------------*/
+
+  .about_section{
+    margin-top: 30px;
+    
+  }
+  .about_section .container{
+    background-color: #eeeded;
+  }
+
+  .about_section .img-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /*-----------------offer_section------------------------*/
+  .offer_section{
+    margin: 30px;
+  }
+
+  .offer_section .heading_container h2{
+    font-weight: bold;
+  }
+
+  .offer_section .detail-box h6{
+    font-weight: bold;
+  }
+
+  .offer_section .col-md-3 img{
+    background-color: beige;
+    margin: 1px;
+    margin-top: 5px;
+  }
+  .offer_section .col-md-3 img:hover{
+    background-color:#fecb32;
+  }
+
+  /*-------------contact_us page---------------*/
+
+    
+  .contact_section  {
+    position: relative;
+    background-color: #b99d4b;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact_section h2 {
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .contact_section h2 span {
+    color: #fefdfc;
+  }
+
+  .contact_section form {
+    padding-right: 35px;
+  }
+
+  .contact_section input {
+    width: 100%;
+    border: 0;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: #fefdfc;
+    outline: none;
+    color: #101010;
+  }
+
+  .contact_section input::-webkit-input-placeholder {
+    color: #131313;
+  }
+
+  .contact_section input:-ms-input-placeholder {
+    color: #131313;
+  }
+
+  .contact_section input::-ms-input-placeholder {
+    color: #131313;
+  }
+
+  .contact_section input::placeholder {
+    color: #131313;
+  }
+
+  .contact_section input.message-box {
+    height: 120px;
+  }
+
+  .contact_section button {
+    padding: 15px 55px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid #fa0909;
+    color: #fff;
+    font-weight: bold;
+    background-color: #fa0909;
+  }
+
+  .contact_section .map_section {
+    width: 100%;
+    height: 450px;
+  }
+
+  /*------------------------footer---------------------------------*/
+  /* Social Icons */
+  .social-icons .social-icon {
+    display: inline-block;
+    color: #007bff;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .social-icons .social-icon:hover {
+    color: #0056b3;
+  }
+  .footer .container-fluid{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #1f2835;
+    color: white;
+  }
+
+  .footer .flogo{
+    width: 70%;
+  }
+
+
+  .footer h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .footer .designed-by {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+  }
+  .footer .designed-by img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px; /* Space between icon and text */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid aliceblue; /* Optional: add a border for better visibility */
+  }
+
+  .footer .copyright{
+    background-color: #102443;
+  }
+  .footer .copyright .col-md-6{
+    color: #e5e8ec;
+  }
+
+}
+
+@media (max-width: 1920px){}
+@media (max-width: 1440px){}
+@media (max-width: 1024px){
+  .nav_middle span{
+    margin-left: 30px;
+    font-size: 21px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 769px){
+  .nav_middle span{
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .nav_middle .navbar-brand {
+    width: 10%;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 575px){}
+@media (max-width: 425px){}
+@media (max-width: 375px){}
+@media (max-width: 320px){}
