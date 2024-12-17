@@ -58,7 +58,7 @@
   .principal-image {
     max-width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 5%;
   }
   .principal-content {
     margin-top: 30px;
@@ -170,6 +170,27 @@
   .contact_section .map_section {
     width: 100%;
     height: 450px;
+  }
+
+  /*------------------------Gallery---------------------------------*/
+  .gallery img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+ }
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Modal Image Style */
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
 
   /*------------------------footer---------------------------------*/
